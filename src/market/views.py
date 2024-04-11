@@ -11,3 +11,15 @@ from django.http import HttpResponse
 
 def index(request):
     return render(request, 'market/index.html')
+
+
+def about(request):
+    return render(request, 'market/about-us.html')
+
+
+def product_details_default(request):
+    return render(request, 'market/product-details-default.html')
+
+
+def contacts(request):
+    return render(request, 'market/contact-us.html')
